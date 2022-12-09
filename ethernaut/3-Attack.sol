@@ -7,7 +7,7 @@ interface IConFlip{
     function flip(bool _guess) external returns (bool);
 }
 
-contract AttackFallback1{
+contract Attack{
     using SafeMath for uint256;
     IConFlip public iConFlip;
     uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
